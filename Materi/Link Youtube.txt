@@ -1,0 +1,10 @@
+Data Mining Lecture - - Finding frequent item sets | Apriori Algorithm 
+	https://www.youtube.com/watch?v=LZii6N4vGDs
+
+Data Mining Lecture -- Finding frequent item sets | FP-growth Algorithm 
+	https://www.youtube.com/watch?v=gq6nKbye648
+	https://www.youtube.com/watch?v=LXx1xKF9oDg
+	https://www.youtube.com/watch?v=UbR1qXuIeJY (Arabic)
+
+Frequent Itemsets | Mining of Massive Datasets
+	https://www.youtube.com/watch?v=O9QnC5WJJ90

@@ -1,0 +1,568 @@
+/* CSS of Neural Networks with Java, Version 1.0 */
+
+body, p, li, td
+/* div, td, dd, pre*/
+{
+ font-family: Verdana, Arial, Helvetica, sans-serif, Geneva, Swiss, SunSans-Regular;
+ font-size: 13px;
+ font-weight: normal;
+ color: #333;
+ text-align: left;
+ vertical-align: top;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ background-color: #FFF;
+}
+
+
+#PAGE_HEADER
+{
+ z-index:1;
+ position:absolute;
+ top:0px;
+ left:0px;
+ width: 100%;
+ text-align: left;
+ background-color: #FFF;
+ background-image:url("/fileadmin/img/headerbg-nnwj.jpg");
+ background-repeat:repeat-x;
+}
+#PAGE_HEADER a
+{
+ text-decoration: none;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+}
+#PAGE_HEADER_TOPIC
+{
+ z-index:1;
+ position:absolute;
+ top:84px;
+ left:0px;
+ width: 100%;
+ text-align: left;
+ background-color: #F3F3F3;
+}
+
+
+
+
+h1
+{
+ font-size: 19px;
+ font-weight: normal;
+ color: #330033;
+ margin-bottom: 15px;
+ padding: 0px;
+ border: 0px;
+}
+
+h2
+{
+ font-size: 17px;
+ font-weight: normal;
+ color: #330033;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+}
+
+h3, .h3 {
+ font-size: 13px;
+ font-weight: bold;
+ color: #330033;
+ margin: 0px 0px 0px 0px;
+ padding: 10px 0px 2px 0px;
+}
+
+H4, .H4 {
+ font-size: 13px;
+ font-weight: normal;
+ color: #330033;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 1px 0px;
+}
+
+
+
+#CONTENT
+{
+ z-index:99;
+ position:absolute;
+ top:160px;
+ left:220px;
+ width: 500px;
+ text-align: left;
+}
+#CONTENT a,
+#CONTENT a:visited
+{
+ font-weight: normal;
+ color: #330033;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+}
+#CONTENT a:hover,
+#CONTENT a:active
+{
+ color: #000000;
+ background-color: #E3E3E3;
+ text-decoration: none;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+}
+
+#PAGE_FOOTER
+{
+ width: 496px;
+ text-align: center;
+ font-size: 9px;
+ font-weight: normal;
+ border-top: 1px solid #666;
+ color: #666;
+ margin: 30px 0px 20px 0px;
+ padding: 2px 2px 2px 2px;
+}
+#PAGE_FOOTER a, a:hover
+{
+ color: #666;
+ text-decoration: none;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+
+/****************  MAIN MENU  ****************/
+
+#MENU
+{
+ z-index:6;
+ position:absolute;
+ top:160px;
+ left:5px;
+/* overflow:auto;*/
+ width:180px;
+ text-align:left;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+
+#MAIN_MENU
+{
+ width:180px;
+ text-align:left;
+ line-height:1.8em;
+ margin: 0px;
+ padding: 0px;
+ border: 1px solid #666;
+}
+
+#MAIN_MENU a
+{
+ text-decoration: none;
+ display:block;
+}
+
+#MAIN_MENU .menuitem-1
+{
+ font-size: 10px;
+ font-weight: bold;
+ color: #333;
+ background-color: #E3E3E3;
+ border-top: 1px solid #666;
+}
+#MAIN_MENU .menuitem-1 a, a:visited
+{
+ color: #333;
+ background-color: #E3E3E3;
+ padding: 0px 5px 0px 5px;
+}
+#MAIN_MENU .menuitem-1 a:hover
+{
+ color: #660066;
+ background-color: #F9F9F9;
+}
+#MAIN_MENU .menuitem-1-act
+{
+ font-size: 10px;
+ font-weight: bold;
+ color: #660066;
+ background-color: #F9F9F9;
+ border-top: 1px solid #666;
+}
+#MAIN_MENU .menuitem-1-act a, a:hover, a:visited
+{
+ color: #660066;
+ background-color: #F9F9F9;
+ padding: 0px 5px 0px 5px;
+}
+
+#MAIN_MENU .menuitem-2
+{
+ font-size: 9px;
+ font-weight: normal;
+ color: #333;
+ background-color: #E3E3E3;
+ border-top: 1px solid #999;
+}
+#MAIN_MENU .menuitem-2 a,
+#MAIN_MENU .menuitem-2 a:visited
+{
+ color: #333;
+ background-color: #E3E3E3;
+ padding: 0px 5px 0px 16px;
+}
+#MAIN_MENU .menuitem-2 a:hover,
+#MAIN_MENU .menuitem-2 a:active
+{
+ color: #660066;
+ background-color: #F9F9F9;
+}
+#MAIN_MENU .menuitem-2-act
+{
+ font-size: 9px;
+ font-weight: normal;
+ color: #660066;
+ background-color: #F9F9F9;
+ border-top: 1px solid #999;
+}
+#MAIN_MENU .menuitem-2-act a,
+#MAIN_MENU .menuitem-2-act a:hover,
+#MAIN_MENU .menuitem-2-act a:visited,
+#MAIN_MENU .menuitem-2-act a:active
+{
+ color: #660066;
+ background-color: #F9F9F9;
+ padding: 0px 5px 0px 16px;
+}
+
+
+
+
+/****************  GLOBAL NAVIGATION  ****************/
+
+#GLOBAL_NAV
+{
+ overflow:auto;
+ width:180px;
+ text-align: left;
+ line-height: 1.5em;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+
+#GLOBAL_NAV a
+{
+ text-decoration: none;
+ display:block;
+}
+
+#GLOBAL_NAV .menuitem
+{
+ font-size: 9px;
+ font-weight: normal;
+ color: #333;
+ background-color: #D9D9D9;
+ border-top: 1px solid #666;
+}
+
+#GLOBAL_NAV .menuitem a, a:visited
+{
+ color: #333;
+ background-color: #D9D9D9;
+ padding: 0px 5px 0px 5px;
+}
+#GLOBAL_NAV .menuitem a:hover
+{
+ color: #333;
+ background-color: #E9E9E9;
+}
+#GLOBAL_NAV .menuitem-act
+{
+ font-size: 9px;
+ font-weight: normal;
+ color: #333;
+ background-color: #E9E9E9;
+ border-top: 1px solid #666;
+}
+#GLOBAL_NAV .menuitem-act a, a:hover, a:visited
+{
+ color: #333;
+ background-color: #E9E9E9;
+ padding: 0px 5px 0px 5px;
+}
+
+
+
+
+
+/****************  RIGHT-SIDE NAVIGATION  ****************/
+.RIGHT_NAV_HEAD
+{
+ font-size: 9px;
+ font-weight: bold;
+ color: #FFF;
+ background-color: #660066;
+ text-align: left;
+ line-height: 1.3em;
+ margin: 0px;
+ padding-left: 5px;
+ border: 0px;
+}
+
+#RIGHT_NAV
+{
+ width: 180px;
+ text-align: left;
+ line-height: 1.1em;
+ margin-top: 15px;
+ padding: 0px;
+}
+
+#RIGHT_NAV a
+{
+ text-decoration: none;
+ display:block;
+}
+
+#RIGHT_NAV .menuitem
+{
+ font-size: 9px;
+ font-weight: normal;
+ color: #333;
+ background-color: #E9E9E9;
+ border-top: 1px solid #666;
+}
+#RIGHT_NAV .menuitem a, a:visited
+{
+ color: #333;
+ background-color: #E9E9E9;
+ padding: 0px 5px 0px 5px;
+}
+#RIGHT_NAV .menuitem a:hover
+{
+ color: #000;
+ background-color: #F9F9F9;
+}
+#RIGHT_NAV .menuitem-act
+{
+ font-size: 9px;
+ font-weight: bold;
+
+ color: #530053;
+ background-color: #F9F9F9;
+ border-top: 1px solid #666;
+}
+#RIGHT_NAV .menuitem-act a, a:hover, a:visited
+{
+ color: #530053;
+ background-color: #F9F9F9;
+ padding: 0px 5px 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+#PAGENAV
+{
+ width: 100%;
+ text-align: center;
+ line-height: 1.1em;
+ margin-top: 25px;
+ padding: 0px;
+ border: 0px;
+}
+
+#PAGENAV a,
+#PAGENAV a:visited,
+#PAGENAV a:hover,
+#PAGENAV a:active
+{
+ font-size: 11px;
+ font-weight: normal;
+ text-decoration: none;
+}
+
+
+
+
+
+
+
+.small
+{
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.tiny
+{
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.right { text-align: right; }
+.center { text-align: center; }
+.left { text-align: left; }
+.justify { text-align: justify; }
+
+
+
+.code
+{
+  font-family: Courier New;
+  font-weight: bold;
+
+}
+
+.head-class
+{
+ font-family: Courier New;
+ font-size: 16px;
+ font-weight: bold;
+ color: #330033;
+}
+
+.head-features
+{
+ font-size: 14px;
+ font-weight: bold;
+ color: #330033;
+ margin-top: 10px;
+ border-top: 1px dotted #330033;
+}
+
+.method
+{
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+div.code
+{
+  font-weight: normal;
+  background: #F3F3F3;
+  border: 1px solid #D3D3D3;
+  margin: 4px 0px 4px 0px;
+  padding: 4px 4px 4px 4px;
+}
+
+
+div.code_error
+
+{
+  font-weight: normal;
+  color: #333;
+  background: #F3F3F3;
+  border: 2px solid #790033;
+  margin: 4px 0px 4px 0px;
+  padding: 4px 4px 4px 4px;
+}
+
+
+
+
+
+
+
+
+/*** SITEMAP ***/
+
+.sitemapitem
+{
+  font-weight: normal;
+  margin: 0px 0px 10px 0px;
+}
+
+.sitemap1
+{
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0px 0px 15px;
+}
+.sitemap2
+{
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px 0px 0px 50px;
+}
+.sitemap3
+{
+  font-size: 11px;
+  font-weight: normal;
+  color: #333;
+  margin: 3px 0px 0px 70px;	
+}
+.sitemap4
+{
+  font-size : 9px;
+  font-weight: normal;
+  color: #333;
+  margin: 1px 0px 0px 85px;
+}
+
+
+
+
+
+
+
+
+
+input, textarea
+{
+  border: 1px solid #333333;
+  background-color: #ECECEC;
+  padding: 1px 1px 1px 1px;
+  font-size: 12px;
+}
+
+.submit
+{
+  color: #E3E3E3;
+  background-color: #603333;
+  font-size: 7pt;
+  font-weight:bold;
+  text-decoration: none;
+  padding-top: 1pt;
+  padding-bottom: 1pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+}
+
+.combobox
+
+{
+
+  color: #000080;
+  font-size: 8pt;
+  font-weight: normal;
+  background-color: #F3F3F3;
+}
+
+
+.quote
+{
+ margin: 6px 16px 6px 16px;
+ padding: 6px 6px 6px 6px;
+ background: #F9F9F9;
+ border: 1px dotted #999;
+}
+
+.author
+{
+  font-variant:small-caps;
+}
+
